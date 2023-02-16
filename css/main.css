@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.chart{
+    width: 50%;
+    height: 65%;
+    margin: auto;
+}
+
+.left_th_bold,
+.left_th{
+    text-align: left;
+    font-weight: normal;
+}
+
+.left_th_bold{
+    font-weight: 600;
+}
+
+.right_th{
+    text-align: right;
+}
+
+.chart table{
+    width: 191px;
+    height: 189px;
+    font-size: 12px;
+}
